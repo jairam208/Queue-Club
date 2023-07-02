@@ -1,0 +1,733 @@
+*{
+    margin: 0px;
+    padding: 0px;
+      border: 0px;
+}
+
+a {
+  text-decoration: none;
+  display: inline;
+  color: white;
+  
+}
+
+a:hover {
+  background-color: #ce1212;
+}
+#selected{color: #a4161a;}
+
+.Rectangle3 {
+  width: 260px;
+  height: 50px;
+  left: 416px;
+  top: 25px;
+  position: absolute;
+  background: #A4161A;
+  border-radius: 45px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-family: Zilla Slab;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 2px;
+  word-wrap: break-word;
+  cursor: pointer;
+}
+
+.Rectangle2 {
+  width: 260px;
+  height: 50px;
+  left: 764px;
+  top: 25px;
+  position: absolute;
+  background: #A4161A;
+  border-radius: 45px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-family: Zilla Slab;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 2px;
+  word-wrap: break-word;
+  cursor: pointer;
+}
+
+.JoinNow {
+  width: 260px;
+  left: 30px;
+  top: 371px;
+  position: absolute;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-family: Zilla Slab;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 2px;
+  word-wrap: break-word;
+}
+
+
+
+.desktop2 {
+    background-color: #161a1d;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .desktop2 .div {
+    background-color: #161a1d;
+    border: 1px none;
+    height: 2446px;
+    position: relative;
+    width: 1440px;
+  }
+  
+  .desktop2 .frame {
+    height: 120px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1440px;
+  }
+  
+  .desktop2 .navbar {
+    height: 80px;
+    left: 30px;
+    position: relative;
+    top: 20px;
+    width: 1334px;
+  }
+  
+  .desktop2 .overlap-group {
+    height: 80px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 240px;
+  }
+  
+  .desktop2 .text-wrapper {
+    color: #d3d3d3;
+    font-family: "Zilla Slab-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    height: 40px;
+    left: 60px;
+    letter-spacing: 1.52px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 20px;
+    width: 180px;
+  }
+  
+  .desktop2 .element-ball-removebg {
+    height: 80px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 80px;
+  }
+  
+  .desktop2 .text-wrapper-2 {
+    color: #d3d3d3;
+    font-family: "Zilla Slab-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    height: 40px;
+    left: 240px;
+    letter-spacing: 1.52px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 20px;
+    width: 180px;
+  }
+  
+  .desktop2 .reservations {
+    color: #d3d3d3;
+    font-family: "Zilla Slab-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    height: 40px;
+    left: 420px;
+    letter-spacing: 1.52px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 25px;
+    width: 180px;
+  }
+  
+  .desktop2 .tournaments-events {
+    color: #d3d3d3;
+    font-family: "Zilla Slab-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    height: 40px;
+    left: 600px;
+    letter-spacing: 1.52px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 25px;
+    width: 180px;
+  }
+  
+  .desktop2 .text-wrapper-3 {
+    color: #d3d3d3;
+    font-family: "Zilla Slab-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    height: 40px;
+    left: 780px;
+    letter-spacing: 1.52px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 20px;
+    width: 180px;
+  }
+  
+  .desktop2 .text-wrapper-4 {
+    color: #d3d3d3;
+    font-family: "Zilla Slab-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    height: 40px;
+    left: 960px;
+    letter-spacing: 1.52px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 20px;
+    width: 180px;
+  }
+  
+  .desktop2 .text-wrapper-5 {
+    color: #d3d3d3;
+    font-family: "Zilla Slab-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    height: 40px;
+    left: 1140px;
+    letter-spacing: 1.52px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 20px;
+    width: 180px;
+  }
+  
+  .desktop2 .frame-2 {
+    height: 500px;
+    left: 0;
+    position: absolute;
+    top: 120px;
+    width: 1440px;
+  }
+  
+  .desktop2 .h-1 {
+    color: #ffffff;
+    font-family: "Abril Fatface-Regular", Helvetica;
+    font-size: 80px;
+    font-weight: 400;
+    left: 376px;
+    letter-spacing: 72px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 164px;
+  }
+  
+  .desktop2 .text-wrapper-6 {
+    color: #ffffff;
+    font-family: "Zilla Slab-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 382px;
+    letter-spacing: 12.8px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 272px;
+    white-space: nowrap;
+  }
+  
+  .desktop2 .frame-3 {
+    height: 340px;
+    left: 0;
+    position: absolute;
+    top: 620px;
+    width: 1440px;
+  }
+  
+  .desktop2 .TAILOR-MADE {
+    color: #ffffff;
+    font-family: "Abril Fatface-Regular", Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    height: 172px;
+    left: 780px;
+    letter-spacing: 11.2px;
+    line-height: 43.2px;
+    position: absolute;
+    top: 17px;
+  }
+  
+  .desktop2 .from-budget-friendly {
+    color: #ffffff;
+    font-family: "Zilla Slab-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    height: 96px;
+    left: 780px;
+    letter-spacing: 2px;
+    line-height: normal;
+    position: absolute;
+    top: 217px;
+  }
+  
+  .desktop2 .accepting-credit {
+    height: 291px;
+    left: 161px;
+    object-fit: cover;
+    position: absolute;
+    top: 18px;
+    width: 400px;
+  }
+  
+  .desktop2 .frame-4 {
+    height: 581px;
+    left: 0;
+    position: absolute;
+    top: 960px;
+    width: 1440px;
+  }
+  
+  .desktop2 .frame-5 {
+    background-color: #21272c;
+    border-radius: 40px;
+    height: 450px;
+    left: 116px;
+    overflow: hidden;
+    position: absolute;
+    top: 66px;
+    width: 320px;
+  }
+  
+  .desktop2 .text-wrapper-7 {
+    color: #d3d3d3;
+    font-family: "Zilla Slab-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    height: 29px;
+    left: 50px;
+    letter-spacing: 2.4px;
+    line-height: 28.8px;
+    position: absolute;
+    top: 39px;
+    white-space: nowrap;
+  }
+  
+  .desktop2 .text-wrapper-8 {
+    color: #ffffff;
+    font-family: "Abril Fatface-Regular", Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    height: 38px;
+    left: 50px;
+    letter-spacing: 3.2px;
+    line-height: 38.4px;
+    position: absolute;
+    top: 90px;
+    white-space: nowrap;
+  }
+  
+  .desktop2 .group {
+    height: 139px;
+    left: 50px;
+    position: absolute;
+    top: 174px;
+    width: 181px;
+  }
+  
+  .desktop2 .text-wrapper-9 {
+    color: #d3d3d3;
+    font-family: "Zilla Slab-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    height: 19px;
+    left: 38px;
+    letter-spacing: 1.6px;
+    line-height: 19.2px;
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+  }
+  
+  .desktop2 .text-wrapper-10 {
+    color: #d3d3d3;
+    font-family: "Zilla Slab-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    height: 19px;
+    left: 38px;
+    letter-spacing: 1.6px;
+    line-height: 19.2px;
+    position: absolute;
+    top: 40px;
+    white-space: nowrap;
+  }
+  
+  .desktop2 .text-wrapper-11 {
+    color: #d3d3d3;
+    font-family: "Zilla Slab-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    height: 19px;
+    left: 38px;
+    letter-spacing: 1.6px;
+    line-height: 19.2px;
+    position: absolute;
+    top: 80px;
+    white-space: nowrap;
+  }
+  
+  .desktop2 .text-wrapper-12 {
+    color: #d3d3d3;
+    font-family: "Zilla Slab-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    height: 19px;
+    left: 38px;
+    letter-spacing: 1.6px;
+    line-height: 19.2px;
+    position: absolute;
+    top: 120px;
+    white-space: nowrap;
+  }
+  
+  .desktop2 .overlap-group-wrapper {
+    height: 14px;
+    left: 0;
+    position: absolute;
+    top: 3px;
+    width: 21px;
+  }
+  
+  .desktop2 .overlap-group-2 {
+    height: 15px;
+    position: relative;
+    top: -1px;
+  }
+  
+  .desktop2 .line {
+    height: 8px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 7px;
+    width: 8px;
+  }
+  
+  .desktop2 .img {
+    height: 15px;
+    left: 6px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 15px;
+  }
+  
+  .desktop2 .overlap-wrapper {
+    height: 14px;
+    left: 0;
+    position: absolute;
+    top: 43px;
+    width: 21px;
+  }
+  
+  .desktop2 .div-wrapper {
+    height: 14px;
+    left: 0;
+    position: absolute;
+    top: 83px;
+    width: 21px;
+  }
+  
+  .desktop2 .group-2 {
+    height: 14px;
+    left: 0;
+    position: absolute;
+    top: 123px;
+    width: 21px;
+  }
+  
+  .desktop2 .overlap {
+    background-color: #a4161a;
+    border-radius: 45px;
+    height: 50px;
+    left: 30px;
+    position: absolute;
+    top: 358px;
+    width: 260px;
+  }
+  
+  .desktop2 .text-wrapper-13 {
+    color: #ffffff;
+    font-family: "Zilla Slab-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    height: 24px;
+    left: 0;
+    letter-spacing: 2px;
+    line-height: 24px;
+    position: absolute;
+    text-align: center;
+    top: 12px;
+    white-space: nowrap;
+    width: 260px;
+  }
+  
+  .desktop2 .frame-6 {
+    background-color: #21272c;
+    border-radius: 40px;
+    height: 450px;
+    left: 560px;
+    overflow: hidden;
+    position: absolute;
+    top: 66px;
+    width: 320px;
+  }
+  
+  .desktop2 .group-3 {
+    height: 139px;
+    left: 50px;
+    position: absolute;
+    top: 174px;
+    width: 245px;
+  }
+  
+  .desktop2 .frame-7 {
+    background-color: #21272c;
+    border-radius: 40px;
+    height: 450px;
+    left: 1004px;
+    overflow: hidden;
+    position: absolute;
+    top: 66px;
+    width: 320px;
+  }
+  
+  .desktop2 .group-4 {
+    height: 139px;
+    left: 50px;
+    position: absolute;
+    top: 174px;
+    width: 229px;
+  }
+  
+  .desktop2 .frame-8 {
+    height: 455px;
+    left: 0;
+    position: absolute;
+    top: 1541px;
+    width: 1440px;
+  }
+  
+  .desktop2 .ONLINE-REGISTRATION {
+    color: #ffffff;
+    font-family: "Abril Fatface-Regular", Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    height: 172px;
+    left: 152px;
+    letter-spacing: 11.2px;
+    line-height: 43.2px;
+    position: absolute;
+    top: 89px;
+  }
+  
+  .desktop2 .stay-comfy-in-your {
+    color: #ffffff;
+    font-family: "Zilla Slab-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    height: 96px;
+    left: 152px;
+    letter-spacing: 2px;
+    line-height: normal;
+    position: absolute;
+    top: 284px;
+  }
+  
+  .desktop2 .small-business-qr {
+    height: 291px;
+    left: 816px;
+    object-fit: cover;
+    position: absolute;
+    top: 90px;
+    width: 436px;
+  }
+  
+  .desktop2 .frame-9 {
+    height: 100px;
+    left: 0;
+    position: absolute;
+    top: 1996px;
+    width: 1440px;
+  }
+  
+  .desktop2 .overlap-2 {
+    background-color: #a4161a;
+    border-radius: 45px;
+    height: 50px;
+    left: 416px;
+    position: absolute;
+    top: 25px;
+    width: 260px;
+  }
+  
+  .desktop2 .overlap-3 {
+    background-color: #a4161a;
+    border-radius: 45px;
+    height: 50px;
+    left: 764px;
+    position: absolute;
+    top: 25px;
+    width: 260px;
+  }
+  
+  .desktop2 .frame-10 {
+    height: 350px;
+    left: 0;
+    position: absolute;
+    top: 2096px;
+    width: 1440px;
+  }
+  
+  .desktop2 .frame-11 {
+    height: 138px;
+    left: 120px;
+    position: absolute;
+    top: 50px;
+    width: 260px;
+  }
+  
+  .desktop2 .text-wrapper-14 {
+    color: #ffffff;
+    font-family: "Zilla Slab-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0.48px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: -1px;
+    white-space: nowrap;
+  }
+  
+  .desktop2 .group-5 {
+    height: 89px;
+    left: 0;
+    position: absolute;
+    top: 49px;
+    width: 104px;
+  }
+  
+  .desktop2 .text-wrapper-15 {
+    color: #ffffff;
+    font-family: "Zilla Slab-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0.48px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    white-space: nowrap;
+  }
+  
+  .desktop2 .text-wrapper-16 {
+    color: #ffffff;
+    font-family: "Zilla Slab-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0.48px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 35px;
+    white-space: nowrap;
+  }
+  
+  .desktop2 .text-wrapper-17 {
+    color: #ffffff;
+    font-family: "Zilla Slab-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0.48px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 70px;
+    white-space: nowrap;
+  }
+  
+  .desktop2 .frame-12 {
+    height: 138px;
+    left: 547px;
+    position: absolute;
+    top: 49px;
+    width: 260px;
+  }
+  
+  .desktop2 .group-6 {
+    height: 89px;
+    left: 0;
+    position: absolute;
+    top: 49px;
+    width: 56px;
+  }
+  
+  .desktop2 .frame-13 {
+    height: 138px;
+    left: 974px;
+    position: absolute;
+    top: 50px;
+    width: 260px;
+  }
+  
+  .desktop2 .group-7 {
+    height: 89px;
+    left: 0;
+    position: absolute;
+    top: 49px;
+    width: 64px;
+  }
+  
+  .desktop2 .p {
+    color: #ffffff;
+    font-family: "Zilla Slab-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 120px;
+    letter-spacing: 0.48px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 269px;
+    white-space: nowrap;
+  }
+  

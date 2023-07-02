@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+a:hover {
+  background-color: #ce1212;
+}
+#selected{color: #a4161a;}
+
+a {
+  text-decoration: none;
+  display: inline;
+  color: white;
+}
+
+.desktop {
+    background-color: #161a1d;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .desktop .frame-wrapper {
+    background-color: #161a1d;
+    border: 1px none;
+    height: 1024px;
+    width: 1440px;
+  }
+  
+  .desktop .frame {
+    height: 120px;
+  }
+  
+  .desktop .navbar {
+    height: 80px;
+    left: 30px;
+    position: relative;
+    top: 20px;
+    width: 1334px;
+  }
+  
+  .desktop .overlap-group {
+    height: 80px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 240px;
+  }
+  
+  .desktop .text-wrapper {
+    color: #d3d3d3;
+    font-family: "Zilla Slab-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    height: 40px;
+    left: 60px;
+    letter-spacing: 1.52px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 20px;
+    width: 180px;
+  }
+  
+  .desktop .element-ball-removebg {
+    height: 80px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 80px;
+  }
+  
+  .desktop .div {
+    color: #d3d3d3;
+    font-family: "Zilla Slab-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    height: 40px;
+    left: 240px;
+    letter-spacing: 1.52px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 20px;
+    width: 180px;
+  }
+  
+  .desktop .reservations {
+    color: #d3d3d3;
+    font-family: "Zilla Slab-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    height: 40px;
+    left: 420px;
+    letter-spacing: 1.52px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 25px;
+    width: 180px;
+  }
+  
+  .desktop .tournaments-events {
+    color: #d3d3d3;
+    font-family: "Zilla Slab-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    height: 40px;
+    left: 600px;
+    letter-spacing: 1.52px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 25px;
+    width: 180px;
+  }
+  
+  .desktop .text-wrapper-2 {
+    color: #d3d3d3;
+    font-family: "Zilla Slab-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    height: 40px;
+    left: 780px;
+    letter-spacing: 1.52px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 20px;
+    width: 180px;
+  }
+  
+  .desktop .text-wrapper-3 {
+    color: #d3d3d3;
+    font-family: "Zilla Slab-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    height: 40px;
+    left: 960px;
+    letter-spacing: 1.52px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 20px;
+    width: 180px;
+  }
+  
+  .desktop .text-wrapper-4 {
+    color: #d3d3d3;
+    font-family: "Zilla Slab-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    height: 40px;
+    left: 1140px;
+    letter-spacing: 1.52px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 20px;
+    width: 180px;
+  }
+  

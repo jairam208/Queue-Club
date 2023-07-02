@@ -1,0 +1,363 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+a:hover {
+  background-color: #ce1212;
+}
+#selected{color: #a4161a;}
+
+a {
+  text-decoration: none;
+  display: inline;
+  color: white;
+  
+}
+
+.desktop4 {
+    background-color: #161a1d;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .desktop4 .div {
+    background-color: #161a1d;
+    border: 1px none;
+    height: 916px;
+    position: relative;
+    width: 1440px;
+  }
+  
+  .desktop4 .overlap {
+    height: 566px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1440px;
+  }
+  
+  .desktop4 .frame {
+    height: 120px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1440px;
+  }
+  
+  .desktop4 .navbar {
+    height: 80px;
+    left: 30px;
+    position: relative;
+    top: 20px;
+    width: 1334px;
+  }
+  
+  .desktop4 .overlap-group {
+    height: 80px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 240px;
+  }
+  
+  .desktop4 .text-wrapper {
+    color: #d3d3d3;
+    font-family: "Zilla Slab-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    height: 40px;
+    left: 60px;
+    letter-spacing: 1.52px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 20px;
+    width: 180px;
+  }
+  
+  .desktop4 .element-ball-removebg {
+    height: 80px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 80px;
+  }
+  
+  .desktop4 .text-wrapper-2 {
+    color: #d3d3d3;
+    font-family: "Zilla Slab-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    height: 40px;
+    left: 240px;
+    letter-spacing: 1.52px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 20px;
+    width: 180px;
+  }
+  
+  .desktop4 .reservations {
+    color: #d3d3d3;
+    font-family: "Zilla Slab-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    height: 40px;
+    left: 420px;
+    letter-spacing: 1.52px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 25px;
+    width: 180px;
+  }
+  
+  .desktop4 .tournaments-events {
+    color: #d3d3d3;
+    font-family: "Zilla Slab-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    height: 40px;
+    left: 600px;
+    letter-spacing: 1.52px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 25px;
+    width: 180px;
+  }
+  
+  .desktop4 .text-wrapper-3 {
+    color: #d3d3d3;
+    font-family: "Zilla Slab-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    height: 40px;
+    left: 780px;
+    letter-spacing: 1.52px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 20px;
+    width: 180px;
+  }
+  
+  .desktop4 .text-wrapper-4 {
+    color: #d3d3d3;
+    font-family: "Zilla Slab-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    height: 40px;
+    left: 960px;
+    letter-spacing: 1.52px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 20px;
+    width: 180px;
+  }
+  
+  .desktop4 .text-wrapper-5 {
+    color: #d3d3d3;
+    font-family: "Zilla Slab-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    height: 40px;
+    left: 1140px;
+    letter-spacing: 1.52px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 20px;
+    width: 180px;
+  }
+  
+  .desktop4 .frame-2 {
+    height: 450px;
+    left: 0;
+    position: absolute;
+    top: 116px;
+    width: 1440px;
+  }
+  
+  .desktop4 .div-wrapper {
+    background-color: #a4161a;
+    border-radius: 45px;
+    height: 50px;
+    left: 416px;
+    position: absolute;
+    top: 261px;
+    width: 260px;
+  }
+  
+  .desktop4 .text-wrapper-6 {
+    color: #ffffff;
+    font-family: "Zilla Slab-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    height: 24px;
+    left: 0;
+    letter-spacing: 2px;
+    line-height: 24px;
+    position: absolute;
+    text-align: center;
+    top: 12px;
+    white-space: nowrap;
+    width: 260px;
+  }
+  
+  .desktop4 .overlap-2 {
+    background-color: #a4161a;
+    border-radius: 45px;
+    height: 50px;
+    left: 764px;
+    position: absolute;
+    top: 261px;
+    width: 260px;
+  }
+  
+  .desktop4 .h-1 {
+    color: #ffffff;
+    font-family: "Abril Fatface-Regular", Helvetica;
+    font-size: 64px;
+    font-weight: 400;
+    left: 291px;
+    letter-spacing: 9.6px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 138px;
+  }
+  
+  .desktop4 .frame-3 {
+    height: 350px;
+    left: 0;
+    position: absolute;
+    top: 566px;
+    width: 1440px;
+  }
+  
+  .desktop4 .frame-4 {
+    height: 138px;
+    left: 120px;
+    position: absolute;
+    top: 50px;
+    width: 260px;
+  }
+  
+  .desktop4 .text-wrapper-7 {
+    color: #ffffff;
+    font-family: "Zilla Slab-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0.48px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: -1px;
+    white-space: nowrap;
+  }
+  
+  .desktop4 .group {
+    height: 89px;
+    left: 0;
+    position: absolute;
+    top: 49px;
+    width: 104px;
+  }
+  
+  .desktop4 .text-wrapper-8 {
+    color: #ffffff;
+    font-family: "Zilla Slab-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0.48px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    white-space: nowrap;
+  }
+  
+  .desktop4 .text-wrapper-9 {
+    color: #ffffff;
+    font-family: "Zilla Slab-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0.48px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 35px;
+    white-space: nowrap;
+  }
+  
+  .desktop4 .text-wrapper-10 {
+    color: #ffffff;
+    font-family: "Zilla Slab-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0.48px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 70px;
+    white-space: nowrap;
+  }
+  
+  .desktop4 .frame-5 {
+    height: 138px;
+    left: 547px;
+    position: absolute;
+    top: 49px;
+    width: 260px;
+  }
+  
+  .desktop4 .group-2 {
+    height: 89px;
+    left: 0;
+    position: absolute;
+    top: 49px;
+    width: 56px;
+  }
+  
+  .desktop4 .frame-6 {
+    height: 138px;
+    left: 974px;
+    position: absolute;
+    top: 50px;
+    width: 260px;
+  }
+  
+  .desktop4 .group-3 {
+    height: 89px;
+    left: 0;
+    position: absolute;
+    top: 49px;
+    width: 64px;
+  }
+  
+  .desktop4 .p {
+    color: #ffffff;
+    font-family: "Zilla Slab-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 120px;
+    letter-spacing: 0.48px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 269px;
+    white-space: nowrap;
+  }
+  

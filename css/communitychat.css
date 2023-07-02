@@ -1,0 +1,453 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+a:hover {
+  background-color: #ce1212;
+}
+#selected{color: #a4161a;}
+
+a {
+  text-decoration: none;
+  display: inline;
+  color: white;
+}
+
+.chat-container {
+    width: 980px;
+    height: 45px;
+    left: 347px;
+    top: 581px;
+    position: absolute;
+    background: #21272C;
+    border-radius: 30px;
+  }
+  
+  .chat-container {
+    width: 980px;
+    height: 45px;
+    left: 347px;
+    top: 581px;
+    position: absolute;
+    background: #21272C;
+    border-radius: 30px;
+  }
+  
+  .chat-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .chat-textfield {
+    height: 100%;
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+    background-color: #D9D9D9;
+  }
+  
+  .send-button {
+    background-color: #A4161A;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+
+  .player-level {
+    position: absolute;
+    top: 28px;
+    left: 90px;
+    color: white;
+    font-size: 20px;
+    font-family: Zilla Slab;
+    font-weight: 400;
+    letter-spacing: 0.60px;
+    word-wrap: break-word;
+  }
+  
+  .radio-label {
+    color: white;
+  }
+  
+  input[type="radio"] {
+    display: none;
+  }
+  
+  input[type="radio"] + .radio-label::before {
+    content: '';
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+    border-radius: 50%;
+    border: 2px solid white;
+    vertical-align: middle;
+  }
+  
+  input[type="radio"]:checked + .radio-label::before {
+    background-color: white;
+  }
+  
+  input[type="radio"]:focus + .radio-label::before {
+    outline: 2px solid white;
+  }
+  
+
+.desktop7 {
+    background-color: #161a1d;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .desktop7 .div {
+    background-color: #161a1d;
+    border: 1px none;
+    height: 1270px;
+    position: relative;
+    width: 1440px;
+  }
+  
+  .desktop7 .frame {
+    height: 120px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1440px;
+  }
+  
+  .desktop7 .navbar {
+    height: 80px;
+    left: 30px;
+    position: relative;
+    top: 20px;
+    width: 1334px;
+  }
+  
+  .desktop7 .overlap-group {
+    height: 80px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 240px;
+  }
+  
+  .desktop7 .text-wrapper {
+    color: #d3d3d3;
+    font-family: "Zilla Slab-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    height: 40px;
+    left: 60px;
+    letter-spacing: 1.52px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 20px;
+    width: 180px;
+  }
+  
+  .desktop7 .element-ball-removebg {
+    height: 80px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 80px;
+  }
+  
+  .desktop7 .text-wrapper-2 {
+    color: #d3d3d3;
+    font-family: "Zilla Slab-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    height: 40px;
+    left: 240px;
+    letter-spacing: 1.52px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 20px;
+    width: 180px;
+  }
+  
+  .desktop7 .reservations {
+    color: #d3d3d3;
+    font-family: "Zilla Slab-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    height: 40px;
+    left: 420px;
+    letter-spacing: 1.52px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 25px;
+    width: 180px;
+  }
+  
+  .desktop7 .tournaments-events {
+    color: #d3d3d3;
+    font-family: "Zilla Slab-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    height: 40px;
+    left: 600px;
+    letter-spacing: 1.52px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 25px;
+    width: 180px;
+  }
+  
+  .desktop7 .text-wrapper-3 {
+    color: #d3d3d3;
+    font-family: "Zilla Slab-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    height: 40px;
+    left: 780px;
+    letter-spacing: 1.52px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 20px;
+    width: 180px;
+  }
+  
+  .desktop7 .text-wrapper-4 {
+    color: #d3d3d3;
+    font-family: "Zilla Slab-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    height: 40px;
+    left: 960px;
+    letter-spacing: 1.52px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 20px;
+    width: 180px;
+  }
+  
+  .desktop7 .text-wrapper-5 {
+    color: #d3d3d3;
+    font-family: "Zilla Slab-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    height: 40px;
+    left: 1140px;
+    letter-spacing: 1.52px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 20px;
+    width: 180px;
+  }
+  
+  .desktop7 .frame-2 {
+    height: 720px;
+    left: 0;
+    position: absolute;
+    top: 200px;
+    width: 1440px;
+  }
+  
+  .desktop7 .rectangle {
+    background-color: #d9d9d9;
+    border-radius: 30px;
+    height: 600px;
+    left: 287px;
+    position: absolute;
+    top: 57px;
+    width: 1100px;
+  }
+  
+  .desktop7 .group {
+    height: 75px;
+    left: 30px;
+    position: absolute;
+    top: 57px;
+    width: 227px;
+  }
+  
+  .desktop7 .div-wrapper {
+    background-color: #d9d9d9;
+    border-radius: 30px;
+    height: 75px;
+    position: relative;
+    width: 225px;
+  }
+  
+  .desktop7 .text-wrapper-6 {
+    color: #000000;
+    font-family: "Zilla Slab-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0.6px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 26px;
+    white-space: nowrap;
+    width: 225px;
+  }
+  
+  .desktop7 .frame-3 {
+    height: 350px;
+    left: 0;
+    position: absolute;
+    top: 920px;
+    width: 1440px;
+  }
+  
+  .desktop7 .frame-4 {
+    height: 138px;
+    left: 120px;
+    position: absolute;
+    top: 50px;
+    width: 260px;
+  }
+  
+  .desktop7 .text-wrapper-7 {
+    color: #ffffff;
+    font-family: "Zilla Slab-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0.48px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: -1px;
+    white-space: nowrap;
+  }
+  
+  .desktop7 .group-2 {
+    height: 89px;
+    left: 0;
+    position: absolute;
+    top: 49px;
+    width: 104px;
+  }
+  
+  .desktop7 .text-wrapper-8 {
+    color: #ffffff;
+    font-family: "Zilla Slab-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0.48px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    white-space: nowrap;
+  }
+  
+  .desktop7 .text-wrapper-9 {
+    color: #ffffff;
+    font-family: "Zilla Slab-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0.48px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 35px;
+    white-space: nowrap;
+  }
+  
+  .desktop7 .text-wrapper-10 {
+    color: #ffffff;
+    font-family: "Zilla Slab-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0.48px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 70px;
+    white-space: nowrap;
+  }
+  
+  .desktop7 .frame-5 {
+    height: 138px;
+    left: 547px;
+    position: absolute;
+    top: 49px;
+    width: 260px;
+  }
+  
+  .desktop7 .group-3 {
+    height: 89px;
+    left: 0;
+    position: absolute;
+    top: 49px;
+    width: 56px;
+  }
+  
+  .desktop7 .frame-6 {
+    height: 138px;
+    left: 974px;
+    position: absolute;
+    top: 50px;
+    width: 260px;
+  }
+  
+  .desktop7 .group-4 {
+    height: 89px;
+    left: 0;
+    position: absolute;
+    top: 49px;
+    width: 64px;
+  }
+  
+  .desktop7 .p {
+    color: #ffffff;
+    font-family: "Zilla Slab-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 120px;
+    letter-spacing: 0.48px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 269px;
+    white-space: nowrap;
+  }
+  
+  .desktop7 .frame-7 {
+    height: 80px;
+    left: 0;
+    position: absolute;
+    top: 120px;
+    width: 1440px;
+  }
+  
+  .desktop7 .text-wrapper-11 {
+    color: #ffffff;
+    font-family: "Zilla Slab-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 90px;
+    letter-spacing: 0.6px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 27px;
+    white-space: nowrap;
+  }
+  

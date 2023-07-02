@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+a:hover {
+  background-color: #ce1212;
+}
+#selected{color: #a4161a;}
+
+a {
+  text-decoration: none;
+  display: inline;
+  color: white;
+  
+}
+
+.Rectangle3Button {
+  width: 260px;
+  height: 50px;
+  left: 590px;
+  top: 776px;
+  position: absolute;
+  background: #A4161A;
+  border-radius: 45px;
+  border: none;
+  cursor: pointer;
+}
+
+.PayNow {
+  width: 260px;
+  left: 590px;
+  top: 789px;
+  position: absolute;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-family: Zilla Slab;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 2px;
+  word-wrap: break-word;
+}
+
+.desktop8 {
+  background-color: #161a1d;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.desktop8 .div {
+  background-color: #161a1d;
+  border: 1px none;
+  height: 1024px;
+  position: relative;
+  width: 1440px;
+}
+
+.desktop8 .text-wrapper {
+  color: #ffffff;
+  font-family: "Abril Fatface-Regular", Helvetica;
+  font-size: 48px;
+  font-weight: 400;
+  left: 120px;
+  letter-spacing: 7.2px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 119px;
+}
+
+.desktop8 .overlap-group {
+  background-color: #21272c;
+  border-radius: 30px;
+  height: 637px;
+  left: 434px;
+  position: absolute;
+  top: 256px;
+  width: 571px;
+}
+
+.desktop8 .group {
+  height: 62px;
+  left: 86px;
+  position: absolute;
+  top: 94px;
+  width: 402px;
+}
+
+.desktop8 .text-wrapper-2 {
+  color: #ffffff;
+  font-family: "Abril Fatface-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 2.4px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+}
+
+.desktop8 .rectangle {
+  background-color: #ffffff;
+  border-radius: 30px;
+  height: 32px;
+  left: 0;
+  position: absolute;
+  top: 30px;
+  width: 400px;
+}
+
+.desktop8 .group-2 {
+  height: 262px;
+  left: 86px;
+  position: absolute;
+  top: 194px;
+  width: 402px;
+}
+
+.desktop8 .group-3 {
+  height: 162px;
+  left: 0;
+  position: absolute;
+  top: 100px;
+  width: 402px;
+}
+
+.desktop8 .group-4 {
+  height: 62px;
+  left: 0;
+  position: absolute;
+  top: 100px;
+  width: 402px;
+}
+
+.desktop8 .overlap {
+  border-radius: 45px;
+  height: 50px;
+  left: 156px;
+  position: absolute;
+  top: 520px;
+  width: 260px;
+}
+
+.desktop8 .rectangle-button {
+  background-color: #a4161a;
+  border-radius: 45px;
+  height: 50px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 260px;
+}
+
+.desktop8 .text-wrapper-3 {
+  color: #ffffff;
+  font-family: "Zilla Slab-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  height: 24px;
+  left: 0;
+  letter-spacing: 2px;
+  line-height: 24px;
+  position: absolute;
+  text-align: center;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
